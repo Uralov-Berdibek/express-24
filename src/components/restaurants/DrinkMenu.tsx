@@ -9,7 +9,7 @@ interface DrinkMenuProps {
 
 const DrinkMenu: React.FC<DrinkMenuProps> = ({ image, name, size, price }) => {
   return (
-    <div className='w-full md:w-[210px] mb-8 bg-gray-100 border rounded-lg shadow-lg p-2'>
+    <div className='w-full md:w-[180px] mb-8 bg-gray-100 border rounded-lg shadow-lg p-2'>
       <div>
         <img src={image} alt={name} className='w-full h-[200px] object-cover rounded-lg' />
         <div className='h-[80px] mt-2'>

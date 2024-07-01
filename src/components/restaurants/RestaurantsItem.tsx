@@ -17,7 +17,7 @@ const RestaurantItem: React.FC<RestaurantItemProps> = ({
   isNew,
 }) => {
   return (
-    <div className='w-full md:w-[450px] mb-8 border rounded-lg shadow-lg'>
+    <div className='w-full md:w-[400px] mb-8 border rounded-lg shadow-lg'>
       <div>
         <img src={image} alt={name} className='w-full h-[300px] object-cover rounded-t-lg' />
         <div className='mt-2 p-4'>

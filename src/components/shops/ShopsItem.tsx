@@ -8,7 +8,7 @@ interface ShopItemProps {
 
 const ShopItem: React.FC<ShopItemProps> = ({ image, name, category }) => {
   return (
-    <div className='lg:w-[250px] w-full lg:h-36 h-[200px] shadow-lg  mb-6 lg:mb-0 '>
+    <div className='md:w-[210px] w-full md:h-36 h-[200px] shadow-lg  mb-6 lg:mb-0 '>
       <img src={image} alt={name} className='w-full h-full rounded-[15px]' />
 
       <div className='pt-2'>
