@@ -4,7 +4,7 @@ import { LuUserSquare2 } from 'react-icons/lu';
 
 const MyMenu = () => {
   return (
-    <div className='lg:ml-40 ml-20 hidden md:flex'>
+    <div className='lg:ml-24 ml-8 hidden md:flex'>
       <button className='py-4 px-8 text-[18px] text-[#aaa] border-l flex flex-col justify-center items-center'>
         <TbWorld className='text-[32px]' />
         Русский
