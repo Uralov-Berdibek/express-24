@@ -7,7 +7,7 @@ import MyMenu from './ui/MyMenu';
 
 const Header = () => {
   return (
-    <div className='flex items-center lg:px-[35px] px-[16px] py-[2px] border-b'>
+    <div className='flex items-center lg:px-[35px] px-[16px] border-b'>
       <Logo />
       <div className='flex'>
         <MyInput />
