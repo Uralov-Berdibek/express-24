@@ -8,15 +8,9 @@ const Footer: React.FC = () => {
         <div className='flex flex-col md:flex-row justify-between items-center'>
           <div className='mb-4 md:mb-0'>
             <nav className='flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 text-xl font-semibold'>
-              <a href='#' className='hover:underline'>
-                О нас
-              </a>
-              <a href='#' className='hover:underline'>
-                Контакты
-              </a>
-              <a href='#' className='hover:underline'>
-                Пользовательское соглашение
-              </a>
+              <button className='hover:underline'>О нас</button>
+              <button className='hover:underline'>Контакты</button>
+              <button className='hover:underline'>Пользовательское соглашение</button>
             </nav>
             <div className='mt-4 md:mt-0 flex items-center space-x-2 text-xl font-semibold'>
               <span>Служба поддержки:</span>
@@ -26,15 +20,15 @@ const Footer: React.FC = () => {
             </div>
           </div>
           <div className='flex items-center space-x-4 md:ml-auto'>
-            <a href='#'>
+            <button>
               <FaInstagram className='text-xl' />
-            </a>
-            <a href='#'>
+            </button>
+            <button>
               <FaFacebookF className='text-xl' />
-            </a>
-            <a href='#'>
+            </button>
+            <button>
               <FaTelegramPlane className='text-xl' />
-            </a>
+            </button>
             <span className='text-xl font-semibold'>© 2024 Express24</span>
           </div>
         </div>

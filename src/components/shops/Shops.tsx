@@ -66,10 +66,10 @@ const Shops: React.FC = () => {
     <div className='w-full px-4 md:px-32 pt-14'>
       <div className='flex justify-between items-center mb-8'>
         <h2 className='text-5xl font-bold'>Магазины</h2>
-        <a href='#' className='md:flex hidden items-center text-gray-500 text-xl'>
+        <button className='md:flex hidden items-center text-gray-500 text-xl'>
           Показать все
           <MdOutlineKeyboardArrowRight className='text-3xl' />
-        </a>
+        </button>
       </div>
       <div className='mx-auto'>
         <Slider {...settings}>
